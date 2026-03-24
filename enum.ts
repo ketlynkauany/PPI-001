@@ -10,7 +10,7 @@
 
  let situacao = Situação.APROVADO
 
- type Curso = 'INFO' | 'meca' | 'subredes' | 'submeca'
+ type Curso = 'INFO (O melhor curso)' | 'meca' | 'subredes' | 'submeca'
 
  interface Estudadente  {
     nome: string
@@ -20,7 +20,7 @@
     etapa3: number | undefined
     etapa4: number | undefined
     mediaParcial: number | undefined
-    curso: Curso
+    curso: Curso | string
     situacao: Situação
  }
 
