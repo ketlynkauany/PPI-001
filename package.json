@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/ketlynkauany/PPI-001/issues"
   },
-  "homepage": "https://github.com/ketlynkauany/PPI-001#readme"
+  "homepage": "https://github.com/ketlynkauany/PPI-001#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0"
+  }
 }
